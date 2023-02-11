@@ -13,6 +13,8 @@
 		18747E8D299406F300F1F7FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18747E8B299406F300F1F7FA /* Main.storyboard */; };
 		18747E8F299406F800F1F7FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18747E8E299406F800F1F7FA /* Assets.xcassets */; };
 		18747E92299406F800F1F7FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18747E90299406F800F1F7FA /* LaunchScreen.storyboard */; };
+		18747E9A2995654A00F1F7FA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18747E992995654A00F1F7FA /* Constants.swift */; };
+		18747E9C2995685200F1F7FA /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18747E9B2995685200F1F7FA /* Video.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		18747E8E299406F800F1F7FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18747E91299406F800F1F7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18747E93299406F800F1F7FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18747E992995654A00F1F7FA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18747E9B2995685200F1F7FA /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				18747E85299406F300F1F7FA /* AppDelegate.swift */,
 				18747E87299406F300F1F7FA /* SceneDelegate.swift */,
 				18747E89299406F300F1F7FA /* ViewController.swift */,
+				18747E992995654A00F1F7FA /* Constants.swift */,
 				18747E8B299406F300F1F7FA /* Main.storyboard */,
 				18747E8E299406F800F1F7FA /* Assets.xcassets */,
 				18747E90299406F800F1F7FA /* LaunchScreen.storyboard */,
 				18747E93299406F800F1F7FA /* Info.plist */,
+				18747E9B2995685200F1F7FA /* Video.swift */,
 			);
 			path = "youtube-dayonebuile";
 			sourceTree = "<group>";
@@ -141,6 +147,8 @@
 				18747E8A299406F300F1F7FA /* ViewController.swift in Sources */,
 				18747E86299406F300F1F7FA /* AppDelegate.swift in Sources */,
 				18747E88299406F300F1F7FA /* SceneDelegate.swift in Sources */,
+				18747E9A2995654A00F1F7FA /* Constants.swift in Sources */,
+				18747E9C2995685200F1F7FA /* Video.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
